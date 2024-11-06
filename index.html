@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatroom</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">Chatroom</div>
+        <div class="chat-form">
+            <input type="text" id="username" placeholder="Enter your username">
+            <input type="text" id="ehempid1" placeholder="Enter your employee ID">
+            <input type="text" id="ehempid2" placeholder="Enter the other employee's ID">
+            <button onclick="connect()">Connect</button>
+            <button onclick="disconnect()">Disconnect</button>
+        </div>
+        <div class="chat-messages" id="chatbox"></div>
+        <div class="chat-input">
+            <input type="text" id="message" placeholder="Enter your message">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

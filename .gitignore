@@ -1,0 +1,86 @@
+# Ignore virtual environment directories
+.venv/
+
+# Ignore Python cache files
+_pycache_/
+*.py[cod]
+*$py.class
+
+# Ignore environment files
+.env
+
+# Ignore log files
+*.log
+
+# Ignore compiled files
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Ignore test results
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.orig
+*.save
+
+# Ignore build directories
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ignore wheel files
+*.whl
+
+# Ignore mypy cache
+.mypy_cache/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore tox environment
+.tox/
+
+# Ignore pipenv files
+Pipfile.lock
+
+# Ignore poetry files
+poetry.lock
+
+# Ignore sphinx documentation
+docs/_build/
+
+# Ignore local .env files
+.env.local
+.env.*.local
+
+# Docker files
+Dockerfile
+docker-compose.yml
+
+# Docker directories
+.docker
